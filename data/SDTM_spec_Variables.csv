@@ -1,0 +1,171 @@
+Use (y)$Order$Dataset$Variable$Label$Data Type$Length$Significant Digits$Format$Mandatory$Assigned Value$Codelist$Common$Origin$Source$Pages$Method$Predecessor$Role$Has No Data$Comment$Developer Notes$Core
+y$1$DM$STUDYID$Study Identifier$text$$$$Yes$$$$Assigned$Sponsor$$$$Identifier$No$$$Req
+y$2$DM$DOMAIN$Domain Abbreviation$text$$$$Yes$$DM.DOMAIN$$Assigned$Sponsor$$$$Identifier$No$$$Req
+y$3$DM$USUBJID$Unique Subject Identifier$text$$$$Yes$$$$Assigned$Sponsor$$$$Identifier$No$$$Req
+y$4$DM$SUBJID$Subject Identifier for the Study$text$$$$Yes$$$$Assigned$Sponsor$$$$Topic$No$$$Req
+y$5$DM$RFSTDTC$Subject Reference Start Date/Time$text$$$$No$$ISO 8601$$Assigned$Sponsor$$$$Record Qualifier$No$$$Exp
+y$6$DM$RFENDTC$Subject Reference End Date/Time$text$$$$No$$ISO 8601$$Assigned$Sponsor$$$$Record Qualifier$No$$$Exp
+y$7$DM$RFXSTDTC$Date/Time of First Study Treatment$text$$$$No$$ISO 8601$$Assigned$Sponsor$$$$Record Qualifier$No$$$Exp
+y$8$DM$RFXENDTC$Date/Time of Last Study Treatment$text$$$$No$$ISO 8601$$Assigned$Sponsor$$$$Record Qualifier$No$$$Exp
+y$9$DM$RFICDTC$Date/Time of Informed Consent$text$$$$No$$ISO 8601$$Assigned$Sponsor$$$$Record Qualifier$No$$$Exp
+y$10$DM$RFPENDTC$Date/Time of End of Participation$text$$$$No$$ISO 8601$$Assigned$Sponsor$$$$Record Qualifier$No$$$Exp
+y$11$DM$DTHDTC$Date/Time of Death$text$$$$No$$ISO 8601$$Assigned$Sponsor$$$$Record Qualifier$No$$$Exp
+y$12$DM$DTHFL$Subject Death Flag$text$$$$No$$(NY)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Exp
+y$13$DM$SITEID$Study Site Identifier$text$$$$Yes$$$$Assigned$Sponsor$$$$Record Qualifier$No$$$Req
+$14$DM$INVID$Investigator Identifier$text$$$$No$$$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$15$DM$INVNAM$Investigator Name$text$$$$No$$$$Assigned$Sponsor$$$$Synonym Qualifier$No$$$Perm
+$16$DM$BRTHDTC$Date/Time of Birth$text$$$$No$$ISO 8601$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+y$17$DM$AGE$Age$integer$$$$No$$$$Assigned$Sponsor$$$$Record Qualifier$No$$$Exp
+y$18$DM$AGEU$Age Units$text$$$$No$$(AGEU)$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Exp
+y$19$DM$SEX$Sex$text$$$$Yes$$(SEX)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Req
+y$20$DM$RACE$Race$text$$$$No$$(RACE)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Exp
+$21$DM$ETHNIC$Ethnicity$text$$$$No$$(ETHNIC)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+y$22$DM$ARMCD$Planned Arm Code$text$$$$No$$$$Assigned$Sponsor$$$$Record Qualifier$No$$$Exp
+y$23$DM$ARM$Description of Planned Arm$text$$$$No$$$$Assigned$Sponsor$$$$Synonym Qualifier$No$$$Exp
+y$24$DM$ACTARMCD$Actual Arm Code$text$$$$No$$$$Assigned$Sponsor$$$$Record Qualifier$No$$$Exp
+y$25$DM$ACTARM$Description of Actual Arm$text$$$$No$$$$Assigned$Sponsor$$$$Synonym Qualifier$No$$$Exp
+y$26$DM$ARMNRS$Reason Arm and/or Actual Arm is Null$text$$$$No$$$$Assigned$Sponsor$$$$Record Qualifier$No$$$Exp
+y$27$DM$ACTARMUD$Description of Unplanned Actual Arm$text$$$$No$$$$Assigned$Sponsor$$$$Record Qualifier$No$$$Exp
+y$28$DM$COUNTRY$Country$text$$$$Yes$$ISO 3166-1 Alpha-3$$Assigned$Sponsor$$$$Record Qualifier$No$$$Req
+$29$DM$DMDTC$Date/Time of Collection$text$$$$No$$ISO 8601$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$30$DM$DMDY$Study Day of Collection$integer$$$$No$$$$Assigned$Sponsor$$$$Timing$No$$$Perm
+y$1$EX$STUDYID$Study Identifier$text$$$$Yes$$$$Assigned$Sponsor$$$$Identifier$No$$$Req
+y$2$EX$DOMAIN$Domain Abbreviation$text$$$$Yes$$EX.DOMAIN$$Assigned$Sponsor$$$$Identifier$No$$$Req
+y$3$EX$USUBJID$Unique Subject Identifier$text$$$$Yes$$$$Assigned$Sponsor$$$$Identifier$No$$$Req
+y$4$EX$EXSEQ$Sequence Number$integer$$$$Yes$$$$Assigned$Sponsor$$$$Identifier$No$$$Req
+$5$EX$EXGRPID$Group ID$text$$$$No$$$$Assigned$Sponsor$$$$Identifier$No$$$Perm
+$6$EX$EXREFID$Reference ID$text$$$$No$$$$Assigned$Sponsor$$$$Identifier$No$$$Perm
+$7$EX$EXSPID$Sponsor-Defined Identifier$text$$$$No$$$$Assigned$Sponsor$$$$Identifier$No$$$Perm
+$8$EX$EXLNKID$Link ID$text$$$$No$$$$Assigned$Sponsor$$$$Identifier$No$$$Perm
+$9$EX$EXLNKGRP$Link Group ID$text$$$$No$$$$Assigned$Sponsor$$$$Identifier$No$$$Perm
+y$10$EX$EXTRT$Name of Treatment$text$$$$Yes$$$$Assigned$Sponsor$$$$Topic$No$$$Req
+$11$EX$EXCAT$Category of Treatment$text$$$$No$$$$Assigned$Sponsor$$$$Grouping Qualifier$No$$$Perm
+$12$EX$EXSCAT$Subcategory of Treatment$text$$$$No$$$$Assigned$Sponsor$$$$Grouping Qualifier$No$$$Perm
+y$13$EX$EXDOSE$Dose$integer$$$$No$$$$Assigned$Sponsor$$$$Record Qualifier$No$$$Exp
+$14$EX$EXDOSTXT$Dose Description$text$$$$No$$$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+y$15$EX$EXDOSU$Dose Units$text$$$$No$$(UNIT)$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Exp
+y$16$EX$EXDOSFRM$Dose Form$text$$$$No$$(FRM)$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Exp
+y$17$EX$EXDOSFRQ$Dosing Frequency per Interval$text$$$$No$$(FREQ)$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Perm
+$18$EX$EXDOSRGM$Intended Dose Regimen$text$$$$No$$$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Perm
+$19$EX$EXROUTE$Route of Administration$text$$$$No$$(ROUTE)$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Perm
+$20$EX$EXLOT$Lot Number$text$$$$No$$$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$21$EX$EXLOC$Location of Dose Administration$text$$$$No$$(LOC)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$22$EX$EXLAT$Laterality$text$$$$No$$(LAT)$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Perm
+$23$EX$EXDIR$Directionality$text$$$$No$$(DIR)$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Perm
+$24$EX$EXFAST$Fasting Status$text$$$$No$$(NY)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$25$EX$EXADJ$Reason for Dose Adjustment$text$$$$No$$$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$26$EX$TAETORD$Planned Order of Element within Arm$integer$$$$No$$$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$27$EX$EPOCH$Epoch$text$$$$No$$(EPOCH)$$Assigned$Sponsor$$$$Timing$No$$$Perm
+y$28$EX$EXSTDTC$Start Date/Time of Treatment$text$$$$No$$ISO 8601$$Assigned$Sponsor$$$$Timing$No$$$Exp
+y$29$EX$EXENDTC$End Date/Time of Treatment$text$$$$No$$ISO 8601$$Assigned$Sponsor$$$$Timing$No$$$Exp
+y$30$EX$EXSTDY$Study Day of Start of Treatment$integer$$$$No$$$$Assigned$Sponsor$$$$Timing$No$$$Perm
+y$31$EX$EXENDY$Study Day of End of Treatment$integer$$$$No$$$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$32$EX$EXDUR$Duration of Treatment$text$$$$No$$ISO 8601$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$33$EX$EXTPT$Planned Time Point Name$text$$$$No$$$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$34$EX$EXTPTNUM$Planned Time Point Number$integer$$$$No$$$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$35$EX$EXELTM$Planned Elapsed Time from Time Point Ref$text$$$$No$$ISO 8601$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$36$EX$EXTPTREF$Time Point Reference$text$$$$No$$$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$37$EX$EXRFTDTC$Date/Time of Reference Time Point$text$$$$No$$ISO 8601$$Assigned$Sponsor$$$$Timing$No$$$Perm
+y$1$AE$STUDYID$Study Identifier$text$$$$Yes$$$$Assigned$Sponsor$$$$Identifier$No$$$Req
+y$2$AE$DOMAIN$Domain Abbreviation$text$$$$Yes$$AE.DOMAIN$$Assigned$Sponsor$$$$Identifier$No$$$Req
+y$3$AE$USUBJID$Unique Subject Identifier$text$$$$Yes$$$$Assigned$Sponsor$$$$Identifier$No$$$Req
+y$4$AE$AESEQ$Sequence Number$integer$$$$Yes$$$$Assigned$Sponsor$$$$Identifier$No$$$Req
+$5$AE$AEGRPID$Group ID$text$$$$No$$$$Assigned$Sponsor$$$$Identifier$No$$$Perm
+$6$AE$AEREFID$Reference ID$text$$$$No$$$$Assigned$Sponsor$$$$Identifier$No$$$Perm
+$7$AE$AESPID$Sponsor-Defined Identifier$text$$$$No$$$$Assigned$Sponsor$$$$Identifier$No$$$Perm
+y$8$AE$AETERM$Reported Term for the Adverse Event$text$$$$Yes$$$$Assigned$Sponsor$$$$Topic$No$$$Req
+$9$AE$AEMODIFY$Modified Reported Term$text$$$$No$$$$Assigned$Sponsor$$$$Synonym Qualifier$No$$$Perm
+y$10$AE$AELLT$Lowest Level Term$text$$$$No$$MedDRA$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Exp
+y$11$AE$AELLTCD$Lowest Level Term Code$integer$$$$No$$MedDRA$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Exp
+y$12$AE$AEDECOD$Dictionary-Derived Term$text$$$$Yes$$MedDRA$$Assigned$Sponsor$$$$Synonym Qualifier$No$$$Req
+y$13$AE$AEPTCD$Preferred Term Code$integer$$$$No$$MedDRA$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Exp
+y$14$AE$AEHLT$High Level Term$text$$$$No$$MedDRA$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Exp
+y$15$AE$AEHLTCD$High Level Term Code$integer$$$$No$$MedDRA$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Exp
+y$16$AE$AEHLGT$High Level Group Term$text$$$$No$$MedDRA$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Exp
+y$17$AE$AEHLGTCD$High Level Group Term Code$integer$$$$No$$MedDRA$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Exp
+$18$AE$AECAT$Category for Adverse Event$text$$$$No$$$$Assigned$Sponsor$$$$Grouping Qualifier$No$$$Perm
+$19$AE$AESCAT$Subcategory for Adverse Event$text$$$$No$$$$Assigned$Sponsor$$$$Grouping Qualifier$No$$$Perm
+$20$AE$AEPRESP$Pre-Specified Adverse Event$text$$$$No$$(NY)$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Perm
+y$21$AE$AEBODSYS$Body System or Organ Class$text$$$$No$$$$Assigned$Sponsor$$$$Record Qualifier$No$$$Exp
+y$22$AE$AEBDSYCD$Body System or Organ Class Code$integer$$$$No$$MedDRA$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Exp
+y$23$AE$AESOC$Primary System Organ Class$text$$$$No$$MedDRA$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Exp
+y$24$AE$AESOCCD$Primary System Organ Class Code$integer$$$$No$$MedDRA$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Exp
+$25$AE$AELOC$Location of Event$text$$$$No$$(LOC)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+y$26$AE$AESEV$Severity/Intensity$text$$$$No$$(AESEV)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+y$27$AE$AESER$Serious Event$text$$$$No$$(NY)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Exp
+y$28$AE$AEACN$Action Taken with Study Treatment$text$$$$No$$(ACN)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Exp
+$29$AE$AEACNOTH$Other Action Taken$text$$$$No$$$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+y$30$AE$AEREL$Causality$text$$$$No$$$$Assigned$Sponsor$$$$Record Qualifier$No$$$Exp
+$31$AE$AERELNST$Relationship to Non-Study Treatment$text$$$$No$$$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$32$AE$AEPATT$Pattern of Adverse Event$text$$$$No$$$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$33$AE$AEOUT$Outcome of Adverse Event$text$$$$No$$(OUT)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$34$AE$AESCAN$Involves Cancer$text$$$$No$$(NY)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$35$AE$AESCONG$Congenital Anomaly or Birth Defect$text$$$$No$$(NY)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$36$AE$AESDISAB$Persist or Signif Disability/Incapacity$text$$$$No$$(NY)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$37$AE$AESDTH$Results in Death$text$$$$No$$(NY)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$38$AE$AESHOSP$Requires or Prolongs Hospitalization$text$$$$No$$(NY)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$39$AE$AESLIFE$Is Life Threatening$text$$$$No$$(NY)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$40$AE$AESOD$Occurred with Overdose$text$$$$No$$(NY)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$41$AE$AESMIE$Other Medically Important Serious Event$text$$$$No$$(NY)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$42$AE$AECONTRT$Concomitant or Additional Trtmnt Given$text$$$$No$$(NY)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$43$AE$AETOXGR$Standard Toxicity Grade$text$$$$No$$$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$44$AE$TAETORD$Planned Order of Element within Arm$integer$$$$No$$$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$45$AE$EPOCH$Epoch$text$$$$No$$(EPOCH)$$Assigned$Sponsor$$$$Timing$No$$$Perm
+y$46$AE$AESTDTC$Start Date/Time of Adverse Event$text$$$$No$$ISO 8601$$Assigned$Sponsor$$$$Timing$No$$$Exp
+y$47$AE$AEENDTC$End Date/Time of Adverse Event$text$$$$No$$ISO 8601$$Assigned$Sponsor$$$$Timing$No$$$Exp
+y$48$AE$AESTDY$Study Day of Start of Adverse Event$integer$$$$No$$$$Assigned$Sponsor$$$$Timing$No$$$Perm
+y$49$AE$AEENDY$Study Day of End of Adverse Event$integer$$$$No$$$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$50$AE$AEDUR$Duration of Adverse Event$text$$$$No$$ISO 8601$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$51$AE$AEENRF$End Relative to Reference Period$text$$$$No$$(STENRF)$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$52$AE$AEENRTPT$End Relative to Reference Time Point$text$$$$No$$(STENRF)$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$53$AE$AEENTPT$End Reference Time Point$text$$$$No$$$$Assigned$Sponsor$$$$Timing$No$$$Perm
+y$1$LB$STUDYID$Study Identifier$text$$$$Yes$$$$Assigned$Sponsor$$$$Identifier$No$$$Req
+y$2$LB$DOMAIN$Domain Abbreviation$text$$$$Yes$$LB.DOMAIN$$Assigned$Sponsor$$$$Identifier$No$$$Req
+y$3$LB$USUBJID$Unique Subject Identifier$text$$$$Yes$$$$Assigned$Sponsor$$$$Identifier$No$$$Req
+y$4$LB$LBSEQ$Sequence Number$integer$$$$Yes$$$$Assigned$Sponsor$$$$Identifier$No$$$Req
+$5$LB$LBGRPID$Group ID$text$$$$No$$$$Assigned$Sponsor$$$$Identifier$No$$$Perm
+$6$LB$LBREFID$Specimen ID$text$$$$No$$$$Assigned$Sponsor$$$$Identifier$No$$$Perm
+$7$LB$LBSPID$Sponsor-Defined Identifier$text$$$$No$$$$Assigned$Sponsor$$$$Identifier$No$$$Perm
+y$8$LB$LBTESTCD$Lab Test or Examination Short Name.$text$$$$Yes$$(LBTESTCD)$$Assigned$Sponsor$$$$Topic$No$$$Req
+y$9$LB$LBTEST$Lab Test or Examination Name$text$$$$Yes$$(LBTEST)$$Assigned$Sponsor$$$$Synonym Qualifier$No$$$Req
+y$10$LB$LBCAT$Category for Lab Test$text$$$$No$$$$Assigned$Sponsor$$$$Grouping Qualifier$No$$$Exp
+y$11$LB$LBSCAT$Subcategory for Lab Test$text$$$$No$$$$Assigned$Sponsor$$$$Grouping Qualifier$No$$$Perm
+y$12$LB$LBORRES$Result or Finding in Original Units$text$$$$No$$$$Assigned$Sponsor$$$$Result Qualifier$No$$$Exp
+y$13$LB$LBORRESU$Original Units$text$$$$No$$(UNIT)$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Exp
+y$14$LB$LBORNRLO$Reference Range Lower Limit in Orig Unit$text$$$$No$$$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Exp
+y$15$LB$LBORNRHI$Reference Range Upper Limit in Orig Unit$text$$$$No$$$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Exp
+y$16$LB$LBSTRESC$Character Result/Finding in Std Format$text$$$$No$$(LBSTRESC)$$Assigned$Sponsor$$$$Result Qualifier$No$$$Exp
+y$17$LB$LBSTRESN$Numeric Result/Finding in Standard Units$integer$$$$No$$$$Assigned$Sponsor$$$$Result Qualifier$No$$$Exp
+y$18$LB$LBSTRESU$Standard Units$text$$$$No$$(UNIT)$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Exp
+y$19$LB$LBSTNRLO$Reference Range Lower Limit-Std Units$integer$$$$No$$$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Exp
+y$20$LB$LBSTNRHI$Reference Range Upper Limit-Std Units$integer$$$$No$$$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Exp
+$21$LB$LBSTNRC$Reference Range for Char Rslt-Std Units$text$$$$No$$$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Perm
+$22$LB$LBSTREFC$Reference Result in Standard Format$text$$$$No$$$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Exp
+y$23$LB$LBNRIND$Reference Range Indicator$text$$$$No$$(NRIND)$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Exp
+$24$LB$LBSTAT$Completion Status$text$$$$No$$(ND)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$25$LB$LBREASND$Reason Test Not Done$text$$$$No$$$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$26$LB$LBNAM$Vendor Name$text$$$$No$$$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$27$LB$LBLOINC$LOINC Code$text$$$$No$$$$Assigned$Sponsor$$$$Synonym Qualifier$No$$$Perm
+$28$LB$LBSPEC$Specimen Type$text$$$$No$$(SPECTYPE)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$29$LB$LBSPCCND$Specimen Condition$text$$$$No$$(SPECCOND)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$30$LB$LBMETHOD$Method of Test or Examination$text$$$$No$$(METHOD)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+y$31$LB$LBLOBXFL$Last Observation Before Exposure Flag$text$$$$No$$(NY)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Exp
+$32$LB$LBBLFL$Baseline Flag$text$$$$No$$(NY)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$33$LB$LBFAST$Fasting Status$text$$$$No$$(NY)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$34$LB$LBDRVFL$Derived Flag$text$$$$No$$(NY)$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+$35$LB$LBTOX$Toxicity$text$$$$No$$$$Assigned$Sponsor$$$$Variable Qualifier$No$$$Perm
+$36$LB$LBTOXGR$Standard Toxicity Grade$text$$$$No$$$$Assigned$Sponsor$$$$Record Qualifier$No$$$Perm
+y$37$LB$VISITNUM$Visit Number$integer$$$$No$$$$Assigned$Sponsor$$$$Timing$No$$$Exp
+y$38$LB$VISIT$Visit Name$text$$$$No$$$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$39$LB$VISITDY$Planned Study Day of Visit$integer$$$$No$$$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$40$LB$TAETORD$Planned Order of Element within Arm$integer$$$$No$$$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$41$LB$EPOCH$Epoch$text$$$$No$$(EPOCH)$$Assigned$Sponsor$$$$Timing$No$$$Perm
+y$42$LB$LBDTC$Date/Time of Specimen Collection$text$$$$No$$ISO 8601$$Assigned$Sponsor$$$$Timing$No$$$Exp
+$43$LB$LBENDTC$End Date/Time of Specimen Collection$text$$$$No$$ISO 8601$$Assigned$Sponsor$$$$Timing$No$$$Perm
+y$44$LB$LBDY$Study Day of Specimen Collection$integer$$$$No$$$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$45$LB$LBENDY$Study Day of End of Observation$integer$$$$No$$$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$46$LB$LBTPT$Planned Time Point Name$text$$$$No$$$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$47$LB$LBTPTNUM$Planned Time Point Number$integer$$$$No$$$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$48$LB$LBELTM$Planned Elapsed Time from Time Point Ref$text$$$$No$$ISO 8601$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$49$LB$LBTPTREF$Time Point Reference$text$$$$No$$$$Assigned$Sponsor$$$$Timing$No$$$Perm
+$50$LB$LBRFTDTC$Date/Time of Reference Time Point$text$$$$No$$ISO 8601$$Assigned$Sponsor$$$$Timing$No$$$Perm
