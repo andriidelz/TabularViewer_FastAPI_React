@@ -4,17 +4,34 @@ function App() {
     const [file, setFile] = useState(null);
     const [tableData, setTableData] = useState(null);
 
+    const apiUrl = process.env.REACT_APP_API_URL;
+
     const uploadFile = async () => {
+        if (!file) {
+            alert("Будь ласка, оберіть файл!");
+            return;
+        }
+        
         const formData = new FormData();
         formData.append("file", file);
 
-        const response = await fetch("http://127.0.0.1:8000", {
-            method: "POST",
-            body: formData,
-        });
-
-        const data = await response.json();
-        setTableData(data);
+        try {
+            const response = await fetch(apiUrl, {
+                method: "POST",
+                body: formData,
+            });
+    
+            const data = await response.json();
+    
+            if (!response.ok) {
+                alert(data.error || "Помилка під час завантаження");
+                return;
+            }
+    
+            setTableData(data);
+        } catch (error) {
+            alert("Сервер недоступний");
+        }
     };
 
     return (
